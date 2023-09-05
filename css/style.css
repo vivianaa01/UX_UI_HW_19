@@ -1,0 +1,163 @@
+body {
+background-image: url("../images/Mask\ group.png");
+margin: 0;
+background: absolute;
+font-family: 'Fira Sans', sans-serif;
+font-family: 'Open Sans', sans-serif;
+}
+
+.navigation {
+    background-color: transparent;
+    padding: 15px;
+}
+
+.logo {
+    color:#575856;
+    font-size: 18px;
+}
+
+.inline-block ul {
+    float: right;
+    color: #575856;
+    font-size: 15px;
+}
+
+.inline-block li {
+    display: inline-block;
+    padding: 0px 5px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.buttonHover {
+    background-color: rgb(169, 176, 138,0.7);
+    font-weight: bold;
+}
+
+.heroImg {
+    background-color: transparent;
+    padding: 100px 15px;
+}
+
+.content {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: transparent;
+    text-align: center;
+}
+.content h1 {
+    color: #8AA785;
+    font-weight: 700;
+}
+
+.content p {
+    display: inline-block;
+    font-weight: normal;
+}
+
+button {
+    padding: 15px;
+    background-color: rgb(169, 176, 138,0.3);
+    color: #575856;
+    font-size: 15px;
+    border: transparent;
+    border-radius: 40px;
+}
+
+/*Footer Section*/
+footer {
+    background-color: transparent;
+    padding: 5px;
+    color: #575856;
+}
+
+footer ul {
+    list-style: none;
+    padding-left: 5px
+}
+
+footer li {
+    display: inline-block;
+    padding: 0px 7px;
+}
+
+.heading {
+    text-align: center;
+    padding: 15px 5px;
+    font-size: 30px;
+}
+
+/* My UX Skills Section*/
+.heading {
+    text-align: center;
+} 
+
+.flexContainer {
+    display: flex;
+    padding: 60px 30px;
+    width: 33%;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+}
+
+.skill1 img {
+    width: 200px;
+}
+
+.skill2 img {
+    width: 200px;
+}
+
+.skill3 img {
+    width: 200px;
+}
+
+/*My Work Section*/
+.myWork {
+    padding: 60px 30px;
+    padding-top: 0;
+    background-color: transparent;
+}
+
+.workGrid{
+    display: grid;
+    grid-template-rows: 700px 300px 200px;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: 
+    "project1Image project1"
+    "project2Image project2"
+    ;
+    margin:auto;
+    text-align: center;
+}
+
+.workGrid img{
+    width: 100%;
+    max-width: 250px;
+    margin: 0 auto;
+    display: block;
+}
+
+.project1Image{
+    grid-area: project1Image;
+}
+
+.project2Image {
+    grid-area: project2Image;
+}
+
+.project1Image, .project2Image, .project1, .project2 {
+    padding: 80px;
+}
+
+.project1 {
+    grid-area: project1;
+}
+
+.project2 {
+    grid-area: project2;
+}
